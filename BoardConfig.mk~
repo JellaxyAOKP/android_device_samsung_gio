@@ -23,6 +23,9 @@ include device/samsung/msm7x27-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := gio
 TARGET_KERNEL_CONFIG := cyanogenmod_gio_defconfig
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+
+## TOOLCHAIN
+#TARGET_TOOLS_PREFIX := arm-linux-linaro-4.7 
 ## Assert
 TARGET_OTA_ASSERT_DEVICE := gio,GT-S5660
 
